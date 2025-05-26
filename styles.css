@@ -13,13 +13,19 @@ header{
 
 a{
 
-    font-size: 30px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
     position: relative;
     bottom: 140px;
     padding: 40px;
+    
+}
+a:hover{
+    transition-duration: 2s;
+    color: blue;
+    text-shadow: 3px 3px 10px;
 }
 
 .card{
@@ -43,6 +49,7 @@ a{
     padding: 10px;
 }
 
+
 .produtos{
     background-color: white;
     width: max-content;
@@ -53,5 +60,7 @@ a{
     left: 550px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 20px;
 }
+
 
