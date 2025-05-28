@@ -1,0 +1,40 @@
+body{
+background-color: gray;
+}
+h1{
+    background: linear-gradient(90deg,red,yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    we
+}
+.horario p{
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: solid 1px black;
+    box-shadow: 1px 1px 10px;
+    width: 90px;
+    position: relative;
+    left: 50%;
+    translate: -90%;
+    cursor: pointer;
+}
+
+.horario p:active{
+    letter-spacing: 3px;
+    transition: .2s;
+
+}

@@ -13,7 +13,7 @@ header{
 
 a{
 
-    font-size: 40px;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
@@ -26,6 +26,7 @@ a:hover{
     transition-duration: 2s;
     color: blue;
     text-shadow: 3px 3px 10px;
+    font-size: 45px;
 }
 
 .card{
@@ -35,6 +36,7 @@ a:hover{
     margin: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    font-size: 22px;
 
 
 }
@@ -51,16 +53,35 @@ a:hover{
 
 
 .produtos{
-    background-color: white;
+    background-color:white;
     width: max-content;
     padding: 10px;
     font-size: 50px;
     position: relative;
-    bottom: 300px;
-    left: 550px;
+    bottom: 330px;
+    left: 700px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 2px 2px 20px;
+    
 }
+.produtos p{
+    background-color: gray;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+.produtos p:hover{
+    background-color: gray;
+    font-size: 60px;
+    transition: 2s;
+    box-shadow: 1px 1px 10px;
+    cursor: pointer;
+    width: 360px;
+    box-shadow: 1px 1px 10px;
+    
+
+}
+
 
 
